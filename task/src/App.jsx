@@ -1,20 +1,11 @@
-import Home from "./pages/Home"
-import Signup from "./pages/Signup"
-import Cardspage from "./pages/Cardspage"
-import PortfolioCard from "./pages/PortfolioCard"
-import TradeSection from "./pages/TradeSection"
-import Investor from "./pages/Investor"
+import Hero from "./Components/Hero";
+
 const App = () => {
   return (
-    <div >
-      <Home/>
-      <Signup/>
-      <Cardspage/>
-      <PortfolioCard/>
-      <TradeSection/>
-      <Investor/>
+    <div>
+      <Hero />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
